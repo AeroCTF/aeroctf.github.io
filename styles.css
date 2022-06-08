@@ -4,32 +4,33 @@ body {
     background-image: url("/logo.png");
     background-repeat: no-repeat;
     background-position: top;
-    background-position-y: -10vh;
-    background-size: 60vh;
+    background-position-y: -10vmin;
+    background-size: 60vmin;
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 .title {
-    margin-top: 36vh;
+    margin-top: 36vmin;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12vh;
+    font-size: 12vmin;
     font-weight: bolder;
     color: #efefef;
-    text-shadow: #dc761bc0 1vh 1vh 2vh;
-    margin-bottom: 6vh;
+    text-shadow: #dc761bc0 1vmin 1vmin 2vmin;
+    margin-bottom: 6vmin;
 }
 
 .time {
-    margin: 2vh;
+    margin: 2vmin;
     color: #f0f0f0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 5vh;
+    font-size: 5vmin;
     font-weight: bolder;
 }
 
 .icon {
-    margin: 3vh;
-    margin-top: 6vh;
-    width: 13vh;
-    height: 13vh;
+    margin: 3vmin;
+    margin-top: 6vmin;
+    width: 13vmin;
+    height: 13vmin;
 }
